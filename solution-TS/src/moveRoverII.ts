@@ -7,7 +7,7 @@ const countOrders = (orders: string[], direction: Direction) : number => {
     return orders.filter(order => order === direction).length;
 }
 
-export const moveMegaUltraRover = (orders: string[]): Coordinates => {
+export const moveRoverII = (orders: string[]): Coordinates => {
 
     const latitudeChange = countOrders(orders, "E") - countOrders(orders, "W");
     const longitudeChange = countOrders(orders, "N") - countOrders(orders, "S");

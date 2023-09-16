@@ -1,6 +1,6 @@
 # Mars Rover Kata: a myriad of approaches
 
-Every programmer knows that doing katas do not olny help preventing potential flaws on our logic, but it also enhances creativity. It shows us how many possible solutions there are to solve one problem.
+Every programmer knows that doing katas does not olny help preventing potential flaws on our logic, but it also enhances creativity. It shows us how many possible solutions there are to solve one problem.
 
 In this repository you will find some different approaches to solve the Mars Rover kata.
 

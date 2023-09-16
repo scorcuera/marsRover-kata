@@ -24,7 +24,7 @@ let moveWest= (orders: string[]) : number => {
     return filteredOrders.length;
 }
 
-export const moveMegaRover = (orders: string[]) => {
+export const moveRoverI = (orders: string[]) => {
     let coordinatesLatitude = moveEast(orders) - moveWest(orders);
     let coordinatesLongitude = moveNorth(orders) - moveSouth(orders);
 
